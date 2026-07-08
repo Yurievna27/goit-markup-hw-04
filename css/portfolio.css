@@ -1,0 +1,53 @@
+.portfolio-section > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+.portfolio-title {
+  text-align: center;
+  line-height: 1.11;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 48px 24px;
+}
+
+.portfolio-list-item {
+  width: 360px;
+}
+
+.portfolio-section .card-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.portfolio-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
