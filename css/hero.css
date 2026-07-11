@@ -41,7 +41,7 @@
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
-  transition-property: background-color, box-shadow;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
